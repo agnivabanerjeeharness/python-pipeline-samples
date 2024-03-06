@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: python-pipeline-samples
   annotations:
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: dir:./
 #     harness.io/project-url: https://qa.harness.io/ng/account/zEaak-FLS425IEO7OLzMUg/home/orgs/default/projects/vigneshproject/details
 #     circleci.com/project-slug: github/vigneswara-propelo/python-pipeline-samples
 #     gitlab.com/project-id: '43877214'
