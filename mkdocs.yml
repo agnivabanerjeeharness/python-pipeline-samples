@@ -47,9 +47,9 @@ markdown_extensions:
 #     slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
         # kwds:
         #     case: lower
-# - pymdownx.tasklist:
-#     custom_checkbox: true
-# - toc
+- pymdownx.tasklist:
+    custom_checkbox: true
+- toc
 # - pymdownx.tabbed:
 #     alternate_style: true
 #     combine_header_slug: true
