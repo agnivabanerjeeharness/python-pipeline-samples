@@ -15,6 +15,9 @@ In this tutorial you will learn how you can seamlessly get started with Harness 
  <img width="1792" alt="Screenshot 2022-09-09 at 10 24 17 AM" src="https://user-images.githubusercontent.com/109092049/192598400-7254737b-ff8b-4e1c-bdc8-6efd2895f011.png">
 
 
+[^1]: This is the first footnote. It can contain additional information or references.
+[^2]: This is the second footnote. You can use footnotes to add explanatory notes or citations.
+
 - Select CI Module in the modules sections
 
 
