@@ -18,6 +18,11 @@ In this tutorial you will learn how you can seamlessly get started with Harness 
 [^1]: This is the first footnote. It can contain additional information or references.
 [^2]: This is the second footnote. You can use footnotes to add explanatory notes or citations.
 
+::uml:: format="png" classes="uml myDiagram" alt="My super diagram placeholder" title="My super diagram" width="300px" height="300px"
+  Goofy ->  MickeyMouse: calls
+  Goofy <-- MickeyMouse: responds
+::end-uml::
+
 - Select CI Module in the modules sections
 
 
