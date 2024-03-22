@@ -84,3 +84,12 @@ This is a collapsible details block created using the details extension.
 ::: tip
 This is a tip block.
 :::
+
+@[tab title]
+Content for the first tab.
+
+@[another tab title]
+Content for the second tab.
+
+@[third tab title]
+Content for the third tab.
