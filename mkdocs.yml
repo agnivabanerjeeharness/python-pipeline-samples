@@ -41,13 +41,7 @@ markdown_extensions:
       - name: mermaid
         class: mermaid
         format: !!python/name:pymdownx.superfences.fence_code_format
-- pymdownx.tabbed:
-    alternate_style: true
-    combine_header_slug: true
-    slugify:
-      apply: pymdownx.slugs.slugify
-      kwds:
-        case: lower
+- pymdownx.tabbed
 # - pymdownx.tabbed:
 #     alternate_style: true
 #     combine_header_slug: true
