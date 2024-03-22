@@ -41,7 +41,7 @@ markdown_extensions:
       - name: mermaid
         class: mermaid
         format: !!python/name:pymdownx.superfences.fence_code_format
-- pymdownx.tabbed
+- pymdownx.tabbed:
     alternate_style: true
 # - pymdownx.tabbed:
 #     alternate_style: true
