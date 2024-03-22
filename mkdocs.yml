@@ -45,7 +45,8 @@ markdown_extensions:
     alternate_style: true
     combine_header_slug: true
     slugify: !!python/object/apply:pymdownx.slugs.slugify
-      - case: lower
+      kwds:
+        case: lower
 # - pymdownx.tabbed:
 #     alternate_style: true
 #     combine_header_slug: true
