@@ -77,7 +77,7 @@ nav:
 plugins:
 - search:
     separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
-- blog
+# - blog
 - glightbox
 - tags:
     enabled: true
