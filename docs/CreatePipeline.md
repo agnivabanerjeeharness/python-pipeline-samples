@@ -1,4 +1,10 @@
 In this tutorial you will learn how you can seamlessly get started with Harness CI for ```Python```. In this pipeline we will be implementing a Hello World Server in `Python`.
+
+Table of Contents:
+- [Section 1](#section-1)
+- [Section 2](#section-2)
+
+
 ### Step 1: Fork the repository 
 - Go to [Python-Pipeline-Samples Repo](https://github.com/harness-community/python-pipeline-samples)
 - Now fork this repository in your Github [Forking a repository in Github](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
@@ -83,30 +89,48 @@ This is a collapsible details block created using the details extension.
 
 === "Tab 1"
 Markdown content for Tab 1. This can include multiple paragraphs, lists, and other Markdown elements.
-
 === "Tab 2"
 More Markdown content for Tab 2. You can add various elements like lists, code blocks, and text here.
 
 ===! "New Tab Set"
 Starting a new tab set explicitly with different content.
-
 === "Tab A"
 Content for Tab A in the new tab set.
-
 === "Tab B"
 Additional content for Tab B in the same tab set.
 
 
+- [x] Task 1: Complete task 1
+- [ ] Task 2: Incomplete task 2
+- [ ] Task 3: Another incomplete task
 
-=== "Tab Set"
+
 === "Tab 1"
 Content for Tab 1.
-
 === "Tab 2"
 Content for Tab 2.
 
 
 ===+ "Selected Tab"
 Markdown content for a tab that is selected by default when the page loads.
+
+
+# Document Title
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum ullamcorper dolor, eget posuere quam efficitur id.
+[^1]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum ullamcorper dolor, eget posuere quam efficitur id.
+
+[^1]: This is a critique of the previous paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum ullamcorper dolor, eget posuere quam efficitur id. This comment provides feedback on the clarity of the language used and suggests revisions for improvement.
+
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+
 
 
