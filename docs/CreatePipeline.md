@@ -41,3 +41,46 @@ To know more about Pipelines [check out the docs here](overview.md)
 Next, we are going to add Stages and steps to our Pipeline and compile our Python code.
 
 Click on **[Build step](build.md)**
+
+
+<div class="custom-class">
+This div has a custom class attribute.
+
+</div>
+
+!!! info "Information"
+
+Term 1
+: Definition 1
+
+Term 2
+: Definition 2
+
+
+This^text^contains^carets^interspersed^within^words.
+
+<details>
+<summary>Click to expand</summary>
+This is a collapsible details block created using the details extension.
+
+</details>
+
+:smile:
+
+
+ ==highlighted text==
+
+
+ <kbd>Ctrl</kbd>+<kbd>C</kbd>
+
+ #1234 
+
+==This text is marked using the mark extension.==
+
+~This text is struck through using the tilde extension.~
+
+ This text is {criticized}.
+
+::: tip
+This is a tip block.
+:::
