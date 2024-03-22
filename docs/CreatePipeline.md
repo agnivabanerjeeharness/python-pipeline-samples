@@ -77,19 +77,20 @@ This is a collapsible details block created using the details extension.
 
 ==This text is marked using the mark extension.==
 
-~This text is struck through using the tilde extension.~
+=== "Tab 1"
+Markdown content for Tab 1. This can include multiple paragraphs, lists, and other Markdown elements.
 
- This text is {criticized}.
+=== "Tab 2"
+More Markdown content for Tab 2. You can add various elements like lists, code blocks, and text here.
 
-::: tip
-This is a tip block.
-:::
+===! "New Tab Set"
+Starting a new tab set explicitly with different content.
 
-@[tab title]
-Content for the first tab.
+=== "Tab A"
+Content for Tab A in the new tab set.
 
-@[another tab title]
-Content for the second tab.
+=== "Tab B"
+Additional content for Tab B in the same tab set.
 
-@[third tab title]
-Content for the third tab.
+===+ "Selected Tab"
+Markdown content for a tab that is selected by default when the page loads.
