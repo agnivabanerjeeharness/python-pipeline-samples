@@ -48,6 +48,10 @@ This div has a custom class attribute.
 
 </div>
 
+*[HTML]: HyperText Markup Language
+
+An abbreviation for *[HTML]* can be defined like this.
+
 !!! info "Information"
 
 Term 1
