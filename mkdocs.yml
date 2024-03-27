@@ -68,12 +68,12 @@ plugins:
       enabled: true
       tags_file: tags/tags.md
       tags: true
-  - git-authors:
-      show_contribution: true
-      show_line_count: true
-      count_empty_lines: true
-  - git-revision-date-localized:
-      enable_creation_date: true
+  # - git-authors:
+  #     show_contribution: true
+  #     show_line_count: true
+  #     count_empty_lines: true
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
   - mkdocs-video
   - minify:
       minify_html: true
