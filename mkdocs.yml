@@ -66,7 +66,7 @@ plugins:
   - glightbox
   - tags:
       enabled: true
-      tags_file: tags/tags.md
+      tags_file: tags.md
       tags: true
   # - git-authors:
   #     show_contribution: true
