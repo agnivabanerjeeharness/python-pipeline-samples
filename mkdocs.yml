@@ -1,73 +1,56 @@
-site_name: 'python-pipeline-samples'
+site_name: "python-pipeline-samples"
 
 theme:
   name: material
 
 markdown_extensions:
-- abbr
-- footnotes
-- md_in_html
-- abbr
-- footnotes
-- md_in_html
-- attr_list
-- admonition
-- def_list
-- codehilite
-- pymdownx.arithmatex:
-    generic: true
-- pymdownx.betterem:
-    smart_enable: all
-- pymdownx.caret
-- pymdownx.details
-- pymdownx.highlight:
-    anchor_linenums: true
-    line_spans: __span
-    pygments_lang_class: true
-- pymdownx.inlinehilite
-- pymdownx.keys
-- pymdownx.magiclink:
-    normalize_issue_symbols: true
-    repo_url_shorthand: true
-    user: squidfunk
-    repo: mkdocs-material
-- pymdownx.mark
-- pymdownx.smartsymbols
-- pymdownx.snippets:
-    auto_append:
-      - includes/mkdocs.md
-- pymdownx.superfences:
-    custom_fences:
-      - name: mermaid
-        class: mermaid
-        format: !!python/name:pymdownx.superfences.fence_code_format
-- pymdownx.tabbed:
-    alternate_style: true
-# - pymdownx.tabbed:
-#     alternate_style: true
-#     combine_header_slug: true
-#     slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
-        # kwds:
-        #     case: lower
-- pymdownx.tasklist:
-    custom_checkbox: true
-- toc
-# - pymdownx.tabbed:
-#     alternate_style: true
-#     combine_header_slug: true
-#     slugify: !!python/object/apply:pymdownx.slugs.slugify
-#       kwds:
-#         case: lower
-- pymdownx.tilde
-- markdown.extensions.admonition
-- markdown.extensions.codehilite:
-    guess_lang: false
-- markdown.extensions.def_list
-- markdown.extensions.footnotes
-- markdown.extensions.meta
-- pymdownx.critic
-- pymdownx.extra
-- plantuml_markdown
+  - abbr
+  - footnotes
+  - md_in_html
+  - attr_list
+  - admonition
+  - def_list
+  - codehilite
+  - meta
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.extra
+  - plantuml_markdown
 
 nav:
   - Home: index.md
@@ -77,21 +60,21 @@ nav:
   - Integration: Integration.md
 
 plugins:
-- search:
-    separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
-# - blog
-# - glightbox
-# - tags:
-#     enabled: true
-#     tags_file: tags/tags.md
-#     tags: true
-# - git-authors:
-#     show_contribution: true
-#     show_line_count: true
-#     count_empty_lines: true
-# - git-revision-date-localized:
-#     enable_creation_date: true
-# - mkdocs-video
-# - minify:
-#     minify_html: true
-- techdocs-core
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - blog
+  - glightbox
+  - tags:
+      enabled: true
+      tags_file: tags/tags.md
+      tags: true
+  - git-authors:
+      show_contribution: true
+      show_line_count: true
+      count_empty_lines: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - mkdocs-video
+  - minify:
+      minify_html: true
+  - techdocs-core
