@@ -115,6 +115,13 @@ Content for Tab 2.
 Markdown content for a tab that is selected by default when the page loads.
 
 
+
+::: video
+video_url: https://www.youtube.com/watch?v=sVnI93bCr38
+:::
+
+
+
 # Document Title
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum ullamcorper dolor, eget posuere quam efficitur id.
@@ -131,11 +138,5 @@ graph TD;
     A-->C;
     B-->D;
     C-->D;
-
-
-::: video
-video_url: https://www.youtube.com/watch?v=sVnI93bCr38
-:::
-
 
 
