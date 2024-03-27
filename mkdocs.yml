@@ -64,10 +64,10 @@ plugins:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   - blog
   - glightbox
-  - tags:
-      enabled: true
-      tags_file: tags.md
-      tags: true
+  # - tags:
+  #     enabled: true
+  #     tags_file: tags.md
+  #     tags: true
   # - git-authors:
   #     show_contribution: true
   #     show_line_count: true
