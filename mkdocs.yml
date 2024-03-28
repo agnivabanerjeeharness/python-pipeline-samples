@@ -75,7 +75,7 @@ plugins:
   # - git-revision-date-localized:
   #     enable_creation_date: true
   - mkdocs-video:
-      is_video: True
+      is_video: true
   - minify:
       minify_html: true
   - techdocs-core
