@@ -116,7 +116,7 @@ Markdown content for a tab that is selected by default when the page loads.
 
 
 
-![type:video](https://www.youtube.com/embed/LXb3EKWsInQ)
+
 
 
 # Document Title
