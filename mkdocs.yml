@@ -75,9 +75,9 @@ plugins:
   # - git-revision-date-localized:
   #     enable_creation_date: true
   - mkdocs-video
-      is_video: True
-      video_muted: True
-      video_controls: True
+      is_video: true
+      video_muted: true
+      video_controls: true
       css_style:
         width: "50%"
   - minify:
