@@ -74,12 +74,7 @@ plugins:
   #     count_empty_lines: true
   # - git-revision-date-localized:
   #     enable_creation_date: true
-  - mkdocs-video:
-      is_video: true
-      video_muted: true
-      video_controls: true
-      css_style:
-        width: "50%"
+  - mkdocs-video
   - minify:
       minify_html: true
   - techdocs-core
