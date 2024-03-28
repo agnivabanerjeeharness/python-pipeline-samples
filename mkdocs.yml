@@ -74,7 +74,7 @@ plugins:
   #     count_empty_lines: true
   # - git-revision-date-localized:
   #     enable_creation_date: true
-  - mkdocs-video
+  - mkdocs-video:
       is_video: true
       video_muted: true
       video_controls: true
