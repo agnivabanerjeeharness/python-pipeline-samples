@@ -24,6 +24,30 @@ nav:
   - DockerPat: DockerPat.md
   - DockerPush: DockerPush.md
   - Integration: Integration.md
+
+  - Home: index.md
+  - CreatePipeline: CreatePipeline.md
+  - DockerPat: DockerPat.md
+  - DockerPush: DockerPush.md
+  - Integration: Integration.md
+
+  - Home: index.md
+  - CreatePipeline: CreatePipeline.md
+  - DockerPat: DockerPat.md
+  - DockerPush: DockerPush.md
+  - Integration: Integration.md
+
+  - Home: index.md
+  - CreatePipeline: CreatePipeline.md
+  - DockerPat: DockerPat.md
+  - DockerPush: DockerPush.md
+  - Integration: Integration.md
+
+  - Home: index.md
+  - CreatePipeline: CreatePipeline.md
+  - DockerPat: DockerPat.md
+  - DockerPush: DockerPush.md
+  - Integration: Integration.md
   
 plugins:
   - techdocs-core
