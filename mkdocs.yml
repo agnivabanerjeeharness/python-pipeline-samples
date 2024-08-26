@@ -64,6 +64,7 @@ plugins:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   - blog
   - glightbox
+  - mkdocstrings
   # - tags:
   #     enabled: true
   #     tags_file: tags.md
