@@ -1,0 +1,17 @@
+kind: Component
+apiVersion: backstage.io/v1alpha1
+metadata:
+  name: nginx
+  annotations:
+    harness.io/project-url: https://laxmiharness.pr2.harness.io/ng/account/6cBjZs_fTWCiRITqFyRrgQ/home/orgs/default/projects/IDP/details
+    harness.io/cd-serviceId: nginx
+    harness.io/services: |
+      nginx: https://laxmiharness.pr2.harness.io/ng/account/6cBjZs_fTWCiRITqFyRrgQ/cd/orgs/default/projects/IDP/services/nginx
+  title: nginx
+  tags: []
+spec:
+  type: Service
+  lifecycle: Unknown
+  owner: Unknown
+  domain: default
+  system: IDP
